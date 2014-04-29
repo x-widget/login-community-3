@@ -45,6 +45,6 @@
 	<div style='clear: both'></div>
 		</div>
 	<? if ($is_admin != 'super') {  ?>
-			<div class='user-logged-name'><?=$nick?>님 로그인</div>
+			<div class='user-logged-name'><?=my('nick')?>님 로그인</div>
 	<? }?>
 </div> 
